@@ -1,4 +1,6 @@
 var swiper = new Swiper('.swiper-container', {
+    loop: true,
+    autoplay: true,
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -19,3 +21,4 @@ function scrollFunction() {
 document.querySelector('.burger-menu').addEventListener("click", function(){
     document.querySelector('.header-nav-mobile').classList.toggle('active-menu');
 });
+
