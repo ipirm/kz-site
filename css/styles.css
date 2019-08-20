@@ -229,7 +229,9 @@
   .service-page__btn {
     height: 40px !important; }
   .service-page .subheader-col img {
-    height: 380px !important; } }
+    height: 380px !important; }
+  .service-page .subheader-card__btn span {
+    font-size: 13px !important; } }
 
 @media (max-width: 1450px) and (min-width: 1100px) {
   .main-page__img {
@@ -380,6 +382,17 @@ a:hover {
 
 .card__col {
   position: relative; }
+
+.service__company {
+  width: 384px !important;
+  margin: 0 !important;
+  margin-top: 15px !important; }
+
+@media (max-width: 1000px) {
+  .service__company {
+    width: 90% !important;
+    margin: 0 !important;
+    margin-top: 15px !important; } }
 
 @font-face {
   font-family: "EFN";
@@ -549,6 +562,149 @@ a:hover {
     align-items: center;
     background-color: #fff;
     background-image: linear-gradient(298.99deg, #F7F7F7 0%, rgba(247, 247, 247, 0) 100%); }
+
+@charset "UTF-8";
+.modal-heaader {
+  display: -webkit-box !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+  -webkit-box-pack: center !important;
+  -webkit-justify-content: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  -webkit-box-align: center !important;
+  -webkit-align-items: center !important;
+  align-items: center !important;
+  text-align: center !important; }
+
+.modal-header__h1 {
+  margin-bottom: 28px; }
+  .modal-header__h1 span {
+    font-family: Istok Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 100%;
+    color: #053AA3; }
+    .modal-header__h1 span span {
+      color: #C40C0C; }
+
+.modal-close {
+  margin: 14px 34px 10px 0;
+  cursor: pointer; }
+
+.modal-container {
+  max-width: 568px;
+  width: 100%; }
+
+.input-name {
+  margin-bottom: 15px; }
+  .input-name input {
+    background: #F6F6F6;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 0 !important;
+    width: 100% !important;
+    height: 55px !important; }
+
+.modal-backdrop {
+  background: rgba(236, 236, 236, 0.77) !important;
+  -webkit-backdrop-filter: blur(11px) !important;
+  backdrop-filter: blur(11px) !important;
+  opacity: 1 !important; }
+
+.input-name input::-webkit-input-placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 34px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  color: #000000;
+  text-align: center; }
+
+.input-name input:-moz-placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 34px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  color: #000000;
+  text-align: center; }
+
+.input-name input::-moz-placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 34px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  color: #000000;
+  text-align: center; }
+
+.input-name input:-ms-input-placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 34px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  color: #000000;
+  text-align: center; }
+
+.modal-text span {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 34px;
+  color: #919191; }
+
+.m {
+  margin: 28px 0 55px 0; }
+
+.modal-btn {
+  width: 247px;
+  height: 46px;
+  background: #C40C0C;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+  .modal-btn svg {
+    margin-left: 10px;
+    position: relative; }
+
+/* адаптив для телефонов */
+@media (max-width: 500px) {
+  .modal-header__h1 span {
+    font-size: 28px; }
+  .input-name input::-webkit-input-placeholder {
+    font-size: 14px; }
+  .input-name input:-moz-placeholder {
+    font-size: 14px; }
+  .input-name input::-moz-placeholder {
+    font-size: 14px; }
+  .input-name input:-ms-input-placeholder {
+    font-size: 14px; }
+  .modal-text span {
+    font-size: 12px; } }
 
 .service-page .header-second {
   background-color: #fff; }
