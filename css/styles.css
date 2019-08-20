@@ -117,7 +117,7 @@
   .service-page__block {
     width: 90% !important;
     margin-top: 20px !important;
-    height: 328px !important; }
+    height: 350px !important; }
   .service-page .subheader-col img {
     height: 350px !important; }
   .service-page__block__title {
@@ -225,7 +225,11 @@
   .header-desc {
     width: 100% !important; }
   .active-menu {
-    height: 288px; } }
+    height: 288px; }
+  .service-page__btn {
+    height: 40px !important; }
+  .service-page .subheader-col img {
+    height: 380px !important; } }
 
 @media (max-width: 1450px) {
   .main-page__img {
