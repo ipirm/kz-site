@@ -231,7 +231,7 @@
   .service-page .subheader-col img {
     height: 380px !important; } }
 
-@media (max-width: 1450px) {
+@media (max-width: 1450px) and (min-width: 1100px) {
   .main-page__img {
     max-height: 768px !important;
     max-width: 75% !important; }
